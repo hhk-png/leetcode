@@ -4,6 +4,8 @@ console.log(result);
 
 // next[j]，即是在P(0, j)中，最大子匹配的真前缀和真后缀的长度
 
+console.log(buildNext('bccabcaac'))
+
 function buildNext(p) {
   let plen = p.length;
   let k = -1; // 可以用于记录自匹配中已经完全匹配的字符串个数
