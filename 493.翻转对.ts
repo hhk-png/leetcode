@@ -1,3 +1,5 @@
+// https://leetcode.cn/problems/reverse-pairs/submissions/479491940/
+
 function reversePairs(nums: number[]): number {
   const countPairs = (left: number, right: number) => {
     if (left === right) {
